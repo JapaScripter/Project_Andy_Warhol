@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/logos/logo.png" alt="Logo do site sobre Andy Warhol" width="200" style="border-radius: 100%;" />
+  <img src="assets/images/Marilyn_Monroe.png" alt="Logo do site sobre Andy Warhol" width="200" style="border-radius: 100%;" />
 </p>
 
 <h1 align="center">Site – Andy Warhol e sua Exposição em São Paulo</h1>
