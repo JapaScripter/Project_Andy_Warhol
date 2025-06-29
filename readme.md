@@ -1,46 +1,46 @@
 <p align="center">
-  <img src="assets/images/logos/logo.png" alt="Logo da Eklesia Kerigma" width="200" style="border-radius: 100%;" />
+  <img src="assets/images/logos/logo.png" alt="Logo do site sobre Andy Warhol" width="200" style="border-radius: 100%;" />
 </p>
 
-<h1 align="center">Site Eklesia Kerigma</h1>
+<h1 align="center">Site – Andy Warhol e sua Exposição em São Paulo</h1>
 
 ---
 
-### ✨ Sobre o projeto
+### 🎨 Sobre o projeto
 
-Este site foi desenvolvido com o propósito de ampliar a visibilidade da **Eklesia Kerigma**, um ministério cristão liderado por um pastor brasileiro e sua esposa, atualmente em missão no Paraguai.
+Este site foi desenvolvido como parte de um trabalho realizado no **SENAC**, com o objetivo de apresentar e explorar a vida, obra e impacto artístico de **Andy Warhol**, um dos maiores nomes da pop art.
 
-A plataforma foi planejada estrategicamente para:
+O projeto tem como foco:
 
-- Apresentar a missão, visão e valores do ministério;
-- Inspirar e engajar novos membros, voluntários e parceiros;
-- Divulgar eventos, ações missionárias, testemunhos de fé e conteúdos edificantes;
-- Servir como ponte de comunicação com apoiadores e comunidades atendidas na América Latina.
+- Contextualizar a trajetória de Andy Warhol e sua importância no movimento pop art;
+- Destacar elementos marcantes de sua produção artística;
+- Divulgar informações sobre sua exposição realizada em **São Paulo**;
+- Oferecer uma navegação visualmente atrativa, com interatividade e design responsivo.
 
-Com uma interface clara, responsiva e centrada na experiência do usuário, o site busca fortalecer a presença digital da **Eklesia Kerigma** e contribuir para a expansão do seu impacto missionário.
+Com uma interface moderna e organizada, o site busca tornar o conteúdo acessível e interessante para estudantes, apreciadores de arte e o público em geral.
 
 ---
 
 ### 🛠️ Tecnologias e ferramentas utilizadas
 
-- **HTML5 & CSS3** – Estrutura e estilização das páginas
-- **JavaScript (Vanilla)** – Interatividade e lógica de comportamento
-- **AOS (Animate On Scroll)** – Animações de entrada ao rolar a página
-- **Google Maps Embed API** – Exibição de localização diretamente no site
-- **WhatsApp API (click-to-chat)** – Contato direto via WhatsApp
-- **Netlify** – Hospedagem e deploy contínuo
-- **Netlify.toml** – Configuração personalizada para redirecionamento e remoção de `.html` das URLs
+- **HTML5 & CSS3** – Estrutura e estilização do site  
+- **JavaScript (Vanilla)** – Funcionalidades e interações  
+- **AOS (Animate On Scroll)** – Animações suaves ao rolar a página  
+- **Google Fonts** – Tipografias artísticas e estilizadas  
+- **Netlify** – Hospedagem e deploy automatizado  
+- **Netlify.toml** – Configurações personalizadas de redirecionamento e SEO  
 
 ---
 
 ### 📌 Observações
 
-Caso deseje contribuir com o projeto, relatar bugs ou sugerir melhorias, sinta-se à vontade para abrir uma issue ou pull request.
+Este site foi desenvolvido com fins educativos, e seu conteúdo é fruto de pesquisas realizadas durante o curso.  
+Se tiver sugestões ou quiser relatar algum problema, sinta-se à vontade para contribuir por meio de issues ou pull requests.
 
 ---
 
-### 🙏 Agradecimentos
+### 🙌 Agradecimentos
 
-Agradeço a todos irmãos em Cristo que apoiam e tornam este projeto possível.
+Agradeço ao **SENAC** pela oportunidade de desenvolver este projeto, aos professores envolvidos e a todos que apoiaram o processo de pesquisa e criação.
 
-> "Ide por todo o mundo, pregai o evangelho a toda criatura." — *Marcos 16:15*
+> "A ideia não é viver para sempre, é criar algo que viva para sempre." — *Andy Warhol*
