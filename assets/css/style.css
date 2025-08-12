@@ -150,7 +150,7 @@
 }
 
 .ls_nv:hover {
-  background: #f5ab33;
+  background: rgb(245, 171, 51, 0.5);
 }
 
 .ls_la {
@@ -167,7 +167,7 @@
 }
 
 .ls_la:hover {
-  background: #f5ab33;
+  background: rgb(245, 171, 51, 0.5);
   cursor: pointer;
 }
 
@@ -202,6 +202,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: rgb(245, 171, 51, 0.5);
   animation: slideDown 1s ease-in-out;
 }
 
@@ -213,7 +214,8 @@
   position: absolute;
   display: flex;
   width: 100%;
-  height: 5vw;
+  height: 10vw;
+  padding: 1vw 0;
   bottom: revert;
   flex-direction: column;
   justify-content: center;
@@ -236,6 +238,9 @@
 }
 
 .ft_lk:hover {
+  text-decoration: none;
+  padding: 0.5vw;
+  border-radius: 5vw;
   background-color: #f5ab33;
   cursor: pointer;
 }
@@ -253,14 +258,10 @@
   font-weight: 700;
   color: #f0f0f0;
   display: flex;
+  padding: 0.5vw 1vw;
   justify-content: center;
   align-items: center;
   border-radius: 5vw;
-}
-
-.ft_tt:hover {
-  background-color: #f5ab33;
-  cursor: pointer;
 }
 
 .ft_im {
@@ -299,22 +300,23 @@
   margin: 5vw 0;
   justify-content: center;
   align-items: center;
-  background: #f5ab33;
+  background: #d4284d;
   border-radius: 50vw;
   box-shadow: 0.1vw 0.1vw 0.5vw #0d0d0d;
 }
 
 .hr_1:hover {
-  background: #d4284d;
+  background: rgb(245, 171, 51, 0.8);
 }
 
 .sc_2 {
   display: flex;
   width: 100%;
-  height: 50vw;
+  height: 100%;
+  padding: 10vw 0;
   justify-content: space-around;
   align-items: center;
-  background: #f5ab33;
+  background: #d4284d;
 }
 
 .dv_21 {
@@ -368,7 +370,8 @@
 #sc_3 {
   display: flex;
   width: 100%;
-  height: 50vw;
+  height: 100%;
+  padding: 10vw 0;
   justify-content: center;
   align-items: center;
   background: url("/assets/images/Mao_Tse_Tung_Multi.jpg");
@@ -383,7 +386,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background: rgba(245, 171, 51, 0.9);
+  background: #d4284d;
   border-radius: 2vw;
 }
 
@@ -391,13 +394,11 @@
   font-size: 3vw;
   text-align: center;
   color: #f0f0f0;
-  text-shadow: 0.1vw 0.1vw 0.1vw #0d0d0d;
 }
 
 .tx_3 {
   font-size: 1.5vw;
   text-align: center;
-  text-shadow: 0.1vw 0.1vw 0.1vw #0d0d0d;
   color: #f0f0f0;
 }
 
@@ -409,7 +410,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #f5ab33;
+  background: #d4284d;
 }
 
 .tt_4 {
@@ -514,7 +515,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background: #f5ab33;
+  background: #d4284d;
 }
 
 .ttpl {
@@ -555,7 +556,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  background: #f5ab33;
+  background: #d4284d;
 }
 
 .tttm {
@@ -600,7 +601,7 @@
   left: 0;
   justify-content: center;
   align-items: center;
-  background: #f5ab33;
+  background: #d4284d;
   z-index: 100;
   opacity: 1;
 }
@@ -651,7 +652,6 @@
   animation-delay: 1.4s;
 }
 
-/* Estilo dos pontinhos pulando */
 .dots {
   font-size: 2rem;
   color: #f0f0f0;
@@ -695,9 +695,7 @@
   html,
   body {
     overflow-x: hidden;
-    /* Impede rolagem horizontal */
     overflow-y: scroll;
-    /* Permite rolagem vertical */
   }
 
   #hd {

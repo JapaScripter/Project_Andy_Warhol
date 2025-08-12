@@ -39,30 +39,6 @@ window.addEventListener('load', function () {
 	showNextWord();
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-	const words = document.querySelectorAll('.loading_wd');
-	let currentIndex = 0;
-
-	function showNextWord() {
-		if (currentIndex > 0) {
-			words[currentIndex - 1].style.opacity = 0;
-		}
-
-		words[currentIndex].style.opacity = 1;
-
-		currentIndex++;
-
-		if (currentIndex < words.length) {
-			setTimeout(showNextWord, 2000);
-		} else {
-			setTimeout(() => {
-				document.querySelector('.loading').style.display = 'none';
-			}, 1000);
-		}
-	}
-	showNextWord();
-});
-
 function updateHeaderStyle() {
 	const header = document.getElementById('hd');
 	const logo = document.querySelector('.lg');
